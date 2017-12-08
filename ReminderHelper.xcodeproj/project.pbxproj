@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9360E6049E738D124A65420B /* Pods_ReminderHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C57C16A8CF108C1732B100D /* Pods_ReminderHelper.framework */; };
 		EE1F4E991FDA9FAB007C87E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F4E981FDA9FAB007C87E0 /* AppDelegate.swift */; };
-		EE1F4E9B1FDA9FAB007C87E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F4E9A1FDA9FAB007C87E0 /* ViewController.swift */; };
+		EE1F4E9B1FDA9FAB007C87E0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F4E9A1FDA9FAB007C87E0 /* LoginViewController.swift */; };
 		EE1F4E9E1FDA9FAB007C87E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1F4E9C1FDA9FAB007C87E0 /* Main.storyboard */; };
 		EE1F4EA01FDA9FAB007C87E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1F4E9F1FDA9FAB007C87E0 /* Assets.xcassets */; };
 		EE1F4EA31FDA9FAB007C87E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1F4EA11FDA9FAB007C87E0 /* LaunchScreen.storyboard */; };
+		EE1F4EAB1FDAA1A3007C87E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE1F4EAA1FDAA1A3007C87E0 /* GoogleService-Info.plist */; };
+		EE1F4EAD1FDAA4C1007C87E0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F4EAC1FDAA4C1007C87E0 /* RegisterViewController.swift */; };
+		EE1F4EAF1FDAA7B0007C87E0 /* AddNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F4EAE1FDAA7B0007C87E0 /* AddNameViewController.swift */; };
+		EE1F4EB11FDAAFA9007C87E0 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F4EB01FDAAFA9007C87E0 /* AddNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B7170EBBB598BDD766A7491 /* Pods-ReminderHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminderHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReminderHelper/Pods-ReminderHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		4C57C16A8CF108C1732B100D /* Pods_ReminderHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReminderHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01BDA96532E36665DDEC271 /* Pods-ReminderHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReminderHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReminderHelper/Pods-ReminderHelper.release.xcconfig"; sourceTree = "<group>"; };
 		EE1F4E951FDA9FAB007C87E0 /* ReminderHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReminderHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1F4E981FDA9FAB007C87E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE1F4E9A1FDA9FAB007C87E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE1F4E9A1FDA9FAB007C87E0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EE1F4E9D1FDA9FAB007C87E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE1F4E9F1FDA9FAB007C87E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE1F4EA21FDA9FAB007C87E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE1F4EA41FDA9FAB007C87E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1F4EAA1FDAA1A3007C87E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE1F4EAC1FDAA4C1007C87E0 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EE1F4EAE1FDAA7B0007C87E0 /* AddNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNameViewController.swift; sourceTree = "<group>"; };
+		EE1F4EB01FDAAFA9007C87E0 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9360E6049E738D124A65420B /* Pods_ReminderHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E3B100EFA511A9B2144A477 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C57C16A8CF108C1732B100D /* Pods_ReminderHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C21F91A19C54AEEB62ADF6F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B7170EBBB598BDD766A7491 /* Pods-ReminderHelper.debug.xcconfig */,
+				E01BDA96532E36665DDEC271 /* Pods-ReminderHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EE1F4E8C1FDA9FAB007C87E0 = {
 			isa = PBXGroup;
 			children = (
 				EE1F4E971FDA9FAB007C87E0 /* ReminderHelper */,
 				EE1F4E961FDA9FAB007C87E0 /* Products */,
+				C21F91A19C54AEEB62ADF6F1 /* Pods */,
+				9E3B100EFA511A9B2144A477 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +87,15 @@
 			isa = PBXGroup;
 			children = (
 				EE1F4E981FDA9FAB007C87E0 /* AppDelegate.swift */,
-				EE1F4E9A1FDA9FAB007C87E0 /* ViewController.swift */,
+				EE1F4E9A1FDA9FAB007C87E0 /* LoginViewController.swift */,
+				EE1F4EAC1FDAA4C1007C87E0 /* RegisterViewController.swift */,
+				EE1F4EAE1FDAA7B0007C87E0 /* AddNameViewController.swift */,
+				EE1F4EB01FDAAFA9007C87E0 /* AddNoteViewController.swift */,
 				EE1F4E9C1FDA9FAB007C87E0 /* Main.storyboard */,
 				EE1F4E9F1FDA9FAB007C87E0 /* Assets.xcassets */,
 				EE1F4EA11FDA9FAB007C87E0 /* LaunchScreen.storyboard */,
 				EE1F4EA41FDA9FAB007C87E0 /* Info.plist */,
+				EE1F4EAA1FDAA1A3007C87E0 /* GoogleService-Info.plist */,
 			);
 			path = ReminderHelper;
 			sourceTree = "<group>";
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE1F4EA71FDA9FAB007C87E0 /* Build configuration list for PBXNativeTarget "ReminderHelper" */;
 			buildPhases = (
+				34046A73E0A7FA3847F2B0E7 /* [CP] Check Pods Manifest.lock */,
 				EE1F4E911FDA9FAB007C87E0 /* Sources */,
 				EE1F4E921FDA9FAB007C87E0 /* Frameworks */,
 				EE1F4E931FDA9FAB007C87E0 /* Resources */,
+				515AB8B6D2EEBBC2FBC7F232 /* [CP] Embed Pods Frameworks */,
+				0DE6E3FCE9C758FA1FA18736 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +164,83 @@
 			files = (
 				EE1F4EA31FDA9FAB007C87E0 /* LaunchScreen.storyboard in Resources */,
 				EE1F4EA01FDA9FAB007C87E0 /* Assets.xcassets in Resources */,
+				EE1F4EAB1FDAA1A3007C87E0 /* GoogleService-Info.plist in Resources */,
 				EE1F4E9E1FDA9FAB007C87E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DE6E3FCE9C758FA1FA18736 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReminderHelper/Pods-ReminderHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34046A73E0A7FA3847F2B0E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReminderHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		515AB8B6D2EEBBC2FBC7F232 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReminderHelper/Pods-ReminderHelper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReminderHelper/Pods-ReminderHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE1F4E911FDA9FAB007C87E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE1F4E9B1FDA9FAB007C87E0 /* ViewController.swift in Sources */,
+				EE1F4EAD1FDAA4C1007C87E0 /* RegisterViewController.swift in Sources */,
+				EE1F4E9B1FDA9FAB007C87E0 /* LoginViewController.swift in Sources */,
 				EE1F4E991FDA9FAB007C87E0 /* AppDelegate.swift in Sources */,
+				EE1F4EB11FDAAFA9007C87E0 /* AddNoteViewController.swift in Sources */,
+				EE1F4EAF1FDAA7B0007C87E0 /* AddNameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +375,11 @@
 		};
 		EE1F4EA81FDA9FAB007C87E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7170EBBB598BDD766A7491 /* Pods-ReminderHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N5TJ3A82TA;
+				DEVELOPMENT_TEAM = V8KDY6ER9P;
 				INFOPLIST_FILE = ReminderHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chonnawee.ReminderHelper;
@@ -287,10 +391,11 @@
 		};
 		EE1F4EA91FDA9FAB007C87E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E01BDA96532E36665DDEC271 /* Pods-ReminderHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N5TJ3A82TA;
+				DEVELOPMENT_TEAM = V8KDY6ER9P;
 				INFOPLIST_FILE = ReminderHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chonnawee.ReminderHelper;

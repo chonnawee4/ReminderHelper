@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginViewController.swift
 //  ReminderHelper
 //
 //  Created by Chonnawee Chatcherthaicharoen on 8/12/2560 BE.
@@ -7,22 +7,33 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
   
   @IBOutlet weak var idCardTextField: UITextField!
   @IBOutlet weak var passwordTextField: UITextField!
-
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+  
+  @IBAction func loginPressed(_ sender: UIButton) {
+    
+    guard let idCard = idCardTextField.text, let password = passwordTextField.text else {
+      return
+    }
+    
+    let username = idCard + "@reminderhelp.com"
+    
+    Auth.auth().signIn(withEmail: username, password: password) { (user, error) in
+      if error != nil {
+        let alert = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+        let done = UIAlertAction(title: "Done", style: .default, handler: nil)
+        alert.addAction(done)
+        self.present(alert, animated: true, completion: nil)
+        return
+      }
+      
+      self.performSegue(withIdentifier: "AddNote", sender: nil)
+    }
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-
 
 }
 
