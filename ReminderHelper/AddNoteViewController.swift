@@ -14,7 +14,6 @@ class AddNoteViewController: UIViewController {
   
   @IBOutlet weak var textView: UITextView!
   
-//  var user: User!
   let userId = Auth.auth().currentUser?.uid
   private var ref = Database.database().reference()
   
