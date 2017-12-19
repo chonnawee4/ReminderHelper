@@ -20,7 +20,7 @@ class AddNoteViewController: UIViewController {
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     
-    ref.child("users").child(userId!).observeSingleEvent(of: .value, with: { (snapshot) in
+    ref.child("users").child(userId!).child("note").observeSingleEvent(of: .value, with: { (snapshot) in
       let value = snapshot.value as? NSDictionary
       let note = value?["note"] as? String ?? ""
       self.textView.text = note
